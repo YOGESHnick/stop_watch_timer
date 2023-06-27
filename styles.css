@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background-color:darkcyan;
+    padding:25vh;
+}
+
+.watch{
+    text-align: center;
+    background-color: azure;
+    max-width: 350px;
+    width:100%;
+    margin:4rem auto;
+    padding:1rem 3rem;
+    border-radius: 1.5rem;
+}
+
+.time
+{
+    font-size: 4.3rem;
+    margin-bottom: 1rem;
+}
+
+.contols{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button{
+    cursor:pointer;
+    background-color:lightcoral;
+    padding:0.5rem 1rem;
+    border-radius: 1rem;
+}
+.controls button:hover{
+    transition: 50ms;
+box-shadow:0 8px 16px 0 black;
+}
